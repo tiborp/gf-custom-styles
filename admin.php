@@ -99,14 +99,14 @@ function gf_custom_styles_render_form() {
 				<tr>
 					<th scope="row"><?php _e('Input border color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[input_border_color]" type="text" value="<?php echo $options['input_border_color']; ?>" class="wp-color-picker-field" data-default-color="#ffffff" />
+						<input name="gf_custom_styles_options[input_border_color]" type="text" value="<?php echo $options['input_border_color']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#ffffff" />
 					</td>
 				</tr>
 
 				<tr>
 					<th scope="row"><?php _e('Input background color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[input_background_color]" type="text" value="<?php echo $options['input_background_color']; ?>" class="wp-color-picker-field" data-default-color="#ffffff" />
+						<input name="gf_custom_styles_options[input_background_color]" type="text" value="<?php echo $options['input_background_color']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#ffffff" />
 					</td>
 				</tr>
 
@@ -168,21 +168,21 @@ function gf_custom_styles_render_form() {
 				<tr>
 					<th scope="row"><?php _e('Paragraph color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[textarea_color]" type="text" value="<?php echo $options['textarea_color']; ?>" class="wp-color-picker-field" data-default-color="#000000" />
+						<input name="gf_custom_styles_options[textarea_color]" type="text" value="<?php echo $options['textarea_color']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#000000" />
 					</td>
 				</tr>
 
 				<tr>
 					<th scope="row"><?php _e('Paragraph border color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[textarea_border_color]" type="text" value="<?php echo $options['textarea_border_color']; ?>" class="wp-color-picker-field" data-default-color="#ffffff" />
+						<input name="gf_custom_styles_options[textarea_border_color]" type="text" value="<?php echo $options['textarea_border_color']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#ffffff" />
 					</td>
 				</tr>
 
 				<tr>
 					<th scope="row"><?php _e('Paragraph background color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[textarea_background_color]" type="text" value="<?php echo $options['textarea_background_color']; ?>" class="wp-color-picker-field" data-default-color="#ffffff" />
+						<input name="gf_custom_styles_options[textarea_background_color]" type="text" value="<?php echo $options['textarea_background_color']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#ffffff" />
 					</td>
 				</tr>
 
@@ -249,7 +249,7 @@ function gf_custom_styles_render_form() {
 					<th scope="row">
 					<?php _e('Submit button text color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[submit_button_color]" type="text" value="<?php echo $options['submit_button_color']; ?>" class="wp-color-picker-field" data-default-color="#000000" />
+						<input name="gf_custom_styles_options[submit_button_color]" type="text" value="<?php echo $options['submit_button_color']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#000000" />
 					</td>
 				</tr>
 
@@ -258,14 +258,14 @@ function gf_custom_styles_render_form() {
 					<th scope="row">
 					<?php _e('Submit button background color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[submit_button_bg_color]" type="text" value="<?php echo $options['submit_button_bg_color']; ?>" class="wp-color-picker-field" data-default-color="#ffffff" />
+						<input name="gf_custom_styles_options[submit_button_bg_color]" type="text" value="<?php echo $options['submit_button_bg_color']; ?>" class="-gfcswp-color-picker-field" data-default-color="#ffffff" />
 					</td>
 				</tr>
 
 				<tr>
 					<th scope="row"><?php _e('Submit button border color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[submit_button_border_color]" type="text" value="<?php echo $options['submit_button_border_color']; ?>" class="wp-color-picker-field" data-default-color="#ffffff" />
+						<input name="gf_custom_styles_options[submit_button_border_color]" type="text" value="<?php echo $options['submit_button_border_color']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#ffffff" />
 					</td>
 				</tr>
 
@@ -328,7 +328,7 @@ function gf_custom_styles_render_form() {
 					<th scope="row">
 					<?php _e('Submit button hover/focus state text color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[submit_button_color_hover]" type="text" value="<?php echo $options['submit_button_color_hover']; ?>" class="wp-color-picker-field" data-default-color="#000000" />
+						<input name="gf_custom_styles_options[submit_button_color_hover]" type="text" value="<?php echo $options['submit_button_color_hover']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#000000" />
 					</td>
 				</tr>
 
@@ -337,14 +337,14 @@ function gf_custom_styles_render_form() {
 					<th scope="row">
 					<?php _e('Submit button hover/focus state background color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[submit_button_bg_color_hover]" type="text" value="<?php echo $options['submit_button_bg_color_hover']; ?>" class="wp-color-picker-field" data-default-color="#ffffff" />
+						<input name="gf_custom_styles_options[submit_button_bg_color_hover]" type="text" value="<?php echo $options['submit_button_bg_color_hover']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#ffffff" />
 					</td>
 				</tr>
 
 				<tr>
 					<th scope="row"><?php _e('Submit button hover/focus state border color'); ?></th>
 					<td>
-						<input name="gf_custom_styles_options[submit_button_border_color_hover]" type="text" value="<?php echo $options['submit_button_border_color_hover']; ?>" class="wp-color-picker-field" data-default-color="#ffffff" />
+						<input name="gf_custom_styles_options[submit_button_border_color_hover]" type="text" value="<?php echo $options['submit_button_border_color_hover']; ?>" class="gfcs-wp-color-picker-field" data-default-color="#ffffff" />
 					</td>
 				</tr>
 
